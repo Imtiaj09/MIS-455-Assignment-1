@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #21b2a6;
+    color: white;
+    padding: 0 8%;
+    position: sticky;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* .logo:hover {
+    color: #f2a365;
+} */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d1e8e2;
+    border-bottom: 2px solid #ffff;
+}
+
+
+
+.blue {
+    display: flex;
+    background-color: aqua;
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 5px;
+    
+}
+
+.blue p{
+    border: 2px solid blue;
+}
+
+.red p{
+    background-color: rgb(186, 102, 102);
+    border: 2px solid black;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+
+
+/* ------HERO----- */
+
+.hero {
+    height: 100vh;
+    position: relative;
+  
+    background: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ), url("../images/cover.jpg");
+    background-size: cover;
+    color: #fff;
+    
+  }
+  
+  .hero-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-container-inner {
+    width: 50%;
+  }
+  
+  h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+  }
+  
+  /* .btn{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #21b2a6;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+  } */
+
+  .btn {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #21b2a6;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #1a8d88; 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}
+
+
+
+  
+  
+  h2 {
+    font-size: 44px;
+    margin-bottom: 48px;
+  }
+  
+
