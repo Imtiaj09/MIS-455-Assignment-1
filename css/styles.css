@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -476,5 +477,49 @@ h3 {
 
 /* End */
 
+
+
+/* vintage car */
+.mgallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  gap: 6px;
+  padding: 20px;
+}
+
+.mgallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mgallery-item {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.wide-image {
+  grid-column: span 2;
+}
+
+.n-font, .n1-font {
+  font-family: "Bebas Neue", sans-serif;
+  
+}
+
+.n-font {
+  margin-right: 43%;
+}
+
+.n1-font {
+  margin-right: 75%;
+}
+
+/* vintage car End */
 
 
